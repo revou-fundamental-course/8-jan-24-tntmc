@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    background-color: #8bcfff;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 3em;
+}
+
+header h4 {
+    color: rgb(255, 255, 255);
+    background-color: #69dcff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: -15px;
+    font-size: 1.5em;
+}
+
+header p {
+    color: rgb(255, 255, 255);
+    background-color: #6bd7fb;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#angka1 {
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 5px;
+    width: 97%;
+}
+
+#angka1:focus {
+    border:solid #69dcff;
+}
+
+#angka2 {
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 5px;
+    width: 97%;
+}
+
+#angka2:focus {
+    border:solid #69dcff;
+}
+
+#angkake1 {
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 5px;
+    width: 97%;
+}
+
+#angkake1:focus {
+    border:solid #69dcff;
+}
+
+#angkake2 {
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 5px;
+    width: 97%;
+}
+
+#angkake2:focus {
+    border:solid #69dcff;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns:10px;
+    grid-gap: 100px;
+    margin-left: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.inputluas {
+    height: 350px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 150%;
+}
+
+.inputluas p {
+    color: rgb(255, 255, 255);
+    background-color: #6bd7fb;
+    margin-top: -10px;
+    padding: 10px 0 20px 20px;
+    font-size: 1.5em;
+}
+
+.inputkeliling {
+    height: 350px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-size: 150%;
+}
+
+.inputkeliling p {
+    color: rgb(255, 255, 255);
+    background-color: #6bd7fb;
+    margin-top: -10px;
+    padding: 10px 0 20px 20px;
+    font-size: 1.5em;
+}
+
+button {
+    background: linear-gradient(90deg, rgb(99, 193, 247), rgb(108, 196, 254));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background: linear-gradient(90deg, rgb(173, 253, 216), rgb(176, 255, 237));
+    color: rgb(255, 255, 255);
+}
+
+button:active {
+    background: linear-gradient(90deg, rgb(153, 251, 205), rgb(131, 255, 183));
+    transform: translateY(2px);
+}

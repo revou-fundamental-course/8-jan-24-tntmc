@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik seri 1: Kalkulator luas dan keliling persegi</title>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Katik, Kalkulator matematik</h1>
+        <h4>Welcome to Katik</h4>
+        <p>Web ini digunakan untuk menghitung luas dan keliling persegi dan persegi panjang</p>
+    </header>
+        <section>
+            <div class="wrapper">
+                <div class="inputluas">
+                    <p>Luas persegi atau persegi panjang</p>
+                    <input id="angka1" type="number" placeholder="masukkan angka pertama">
+                    <label for="masukkan-angka-pertama">Masukkan angka pertama</label><br>
+                    <input id="angka2" type="number" placeholder="masukkan angka kedua">
+                    <label for="masukkan-angka-kedua">Masukkan angka kedua</label><br>
+                    <button onclick="luas()">hitung luas</button>
+                    <button onclick="reset()">Reset</button>
+                </div>
+                <div class="inputkeliling">
+                    <p>Keliling persegi atau persegi panjang</p>
+                    <input id="angkake1" type="number" placeholder="masukkan angka pertama">
+                    <label for="masukkan-angka-pertama">Masukkan angka pertama</label><br>
+                    <input id="angkake2" type="number" placeholder="masukkan angka kedua">
+                    <label for="masukkan-angka-kedua">Masukkan angka kedua</label><br>
+                    <button onclick="keliling()">hitung keliling</button>
+                    <button onclick="reset()">Reset</button>
+                </div>
+        </section>
+</body>
+</html>
