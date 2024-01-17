@@ -38,8 +38,9 @@ header p {
     outline: none;
     border-radius: 8px;
     border: solid black;
-    padding: 5px;
-    width: 97%;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 95%;
 }
 
 #angka1:focus {
@@ -50,8 +51,8 @@ header p {
     outline: none;
     border-radius: 8px;
     border: solid black;
-    padding: 5px;
-    width: 97%;
+    padding: 10px;
+    width: 95%;
 }
 
 #angka2:focus {
@@ -62,7 +63,7 @@ header p {
     outline: none;
     border-radius: 8px;
     border: solid black;
-    padding: 5px;
+    padding: 10px;
     width: 97%;
 }
 
@@ -74,7 +75,7 @@ header p {
     outline: none;
     border-radius: 8px;
     border: solid black;
-    padding: 5px;
+    padding: 10px;
     width: 97%;
 }
 
@@ -86,17 +87,17 @@ header p {
     display: grid;
     grid-template-columns:10px;
     grid-gap: 100px;
-    margin-left: 200px;
+    margin-left: 640px;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .inputluas {
-    height: 350px;
-    width: 500px;
+    height: 900px;
+    width: 600px;
     background-color: rgb(255, 255, 255);
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     border: 2px solid black;
     box-sizing: border-box;
@@ -113,11 +114,11 @@ header p {
 }
 
 .inputkeliling {
-    height: 350px;
-    width: 500px;
+    height: 900px;
+    width: 600px;
     background-color: rgb(255, 255, 255);
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     border: 2px solid black;
     box-sizing: border-box;
@@ -138,6 +139,7 @@ button {
     border: none;
     border-radius: 8px;
     padding: 10px 20px;
+    margin-top: 20px;
 }
 
 button:hover{
@@ -148,4 +150,31 @@ button:hover{
 button:active {
     background: linear-gradient(90deg, rgb(153, 251, 205), rgb(131, 255, 183));
     transform: translateY(2px);
+}
+
+.logo {
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: -15px;
+    padding-left: 90px;
+}
+
+.keterangan h2 {
+    font-size: 0.75em;
+    color: black;
+}
+
+.keterangan h3 {
+    font-size: 0.5em;
+    color: black;
+    margin-top: 20px;
+}
+
+.keterangan h4 {
+    font-size: 0.5em;
+    color: black;
+    margin-top: -30px;
+    margin-bottom: 60px;
 }
